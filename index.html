@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shruk Consulting</title>
+<style>
+  .shruk-consult-block {font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,sans-serif; line-height:1.6; margin:0; padding:0; color:#222; background:#f0f4f8;}
+  .shruk-container {max-width:1280px; margin:0 auto; padding:0 20px;}
+  .shruk-header {background:#0D3B66; color:#fff; padding:20px 0;}
+  .shruk-nav {display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap;}
+  .shruk-logo {display:flex; align-items:center; gap:10px; font-weight:bold; font-size:1.5rem;}
+  .shruk-logo-icon {background:#FFD700; color:#0D3B66; padding:6px 12px; border-radius:6px;}
+  .shruk-menu a {color:#fff; text-decoration:none; margin:0 10px; font-weight:500;}
+  .shruk-cta-button {background:#FFD700; color:#0D3B66; padding:10px 20px; border-radius:8px; border:none; cursor:pointer; font-weight:bold;}
+  .shruk-hero {display:flex; align-items:center; justify-content:center; padding:80px 0; background:linear-gradient(135deg,#0D3B66,#00BFA6); color:#fff; text-align:center; flex-wrap:wrap;}
+  .shruk-hero-title {font-size:2.5rem; margin:20px 0;}
+  .shruk-hero-description {max-width:600px; margin:0 auto 20px;}
+  .shruk-know-more-btn {background:#FFD700; color:#0D3B66; padding:12px 24px; border-radius:8px; font-weight:bold; border:none; cursor:pointer;}
+  .shruk-services {padding:60px 0; text-align:center;}
+  .shruk-services-title {font-size:2rem; color:#0D3B66; font-weight:bold; margin-bottom:30px;}
+  .shruk-services-grid {display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:20px;}
+  .shruk-service-card {background:#fff; padding:25px; border-radius:12px; box-shadow:0 6px 12px rgba(0,0,0,0.1); text-align:left;}
+  .shruk-service-title {color:#0D3B66; font-weight:bold; margin-bottom:10px;}
+  .shruk-service-description {color:#334155;}
+  .shruk-service-card img {width:100%; border-radius:8px; margin-bottom:10px;}
+  footer {background:#0D3B66; color:#fff; text-align:center; padding:20px;}
+  form input, form textarea {width:100%; padding:12px; margin-bottom:15px; border:2px solid #0D3B66; border-radius:8px;}
+  form button {background:#0D3B66; color:#fff; padding:12px 24px; border:none; border-radius:8px; cursor:pointer; font-weight:bold;}
+  a {transition:0.3s;}
+  a:hover {color:#FFD700;}
+  @media(max-width:768px){.shruk-hero-content{flex-direction:column;}}
+</style>
+</head>
+<body>
+<div class="shruk-consult-block">
+
+  <!-- HEADER -->
+  <header class="shruk-header">
+    <div class="shruk-container">
+      <div class="shruk-nav">
+        <div class="shruk-logo">
+          <div class="shruk-logo-icon">S</div>
+          <span class="shruk-logo-text">Shruk Consulting</span>
+        </div>
+        <nav class="shruk-menu">
+          <a href="#">Home</a>
+          <a href="#services">Services</a>
+          <a href="#models">Models</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <button class="shruk-cta-button">Get Started</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="shruk-hero">
+    <div class="shruk-container">
+      <div class="shruk-hero-content">
+        <div class="shruk-hero-text">
+          <div class="shruk-tagline">Invest Smarter</div>
+          <h1 class="shruk-hero-title">One-on-One Market Research & Guidance</h1>
+          <p class="shruk-hero-description">
+            Personalized insights and strategies for stocks, crypto, and commodities investors.
+          </p>
+          <button class="shruk-know-more-btn">Get Started</button>
+        </div>
+        <div class="shruk-hero-image">
+          <img src="/placeholder.svg?height=400&width=500" alt="Professional consulting" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="shruk-services">
+    <div class="shruk-container">
+      <h2 class="shruk-services-title">Who We Are</h2>
+      <p>Shruk Consulting provides <strong>dedicated one-on-one market research</strong> to help investors discover opportunities and act with confidence.</p>
+    </div>
+  </section>
+
+  <!-- FEATURED MODELS -->
+  <section id="models" class="shruk-services">
+    <div class="shruk-container">
+      <h2 class="shruk-services-title">Featured Models</h2>
+      <div class="shruk-services-grid">
+        <div class="shruk-service-card">
+          <h3 class="shruk-service-title">Stock Sector Growth</h3>
+          <p class="shruk-service-description">Tracks sector growth potential to uncover high-return opportunities.</p>
+          <p class="shruk-service-description" style="font-weight:bold; color:#FFD700;">Performance: 270%</p>
+        </div>
+        <div class="shruk-service-card">
+          <h3 class="shruk-service-title">Crypto Small-Cap Crash</h3>
+          <p class="shruk-service-description">Predicts vulnerabilities in small-cap crypto assets to mitigate risk.</p>
+          <p class="shruk-service-description" style="font-weight:bold; color:#FFD700;">Performance: 110–270%</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES SECTION -->
+  <section id="services" class="shruk-services">
+    <div class="shruk-container">
+      <h2 class="shruk-services-title">Our Services</h2>
+      <div class="shruk-services-grid">
+        <div class="shruk-service-card">
+          <h3 class="shruk-service-title">Risk Management</h3>
+          <p class="shruk-service-description">Tools and insights to manage financial risk in real time.</p>
+        </div>
+        <div class="shruk-service-card">
+          <h3 class="shruk-service-title">Wealth Advisory</h3>
+          <p class="shruk-service-description">Tailored investment guidance for individuals and enterprises.</p>
+        </div>
+        <div class="shruk-service-card">
+          <h3 class="shruk-service-title">Analytics</h3>
+          <p class="shruk-service-description">Data-driven dashboards for forecasting and investment decisions.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO SECTION -->
+  <section id="portfolio" class="shruk-services">
+    <div class="shruk-container">
+      <h2 class="shruk-services-title">Portfolio</h2>
+      <div class="shruk-services-grid">
+        <div class="shruk-service-card">
+          <img src="https://via.placeholder.com/400x250" alt="FinTech SaaS" />
+          <h3 class="shruk-service-title">FinTech SaaS</h3>
+          <p class="shruk-service-description">Cloud-based financial analytics platform for enterprise clients.</p>
+        </div>
+        <div class="shruk-service-card">
+          <img src="https://via.placeholder.com/400x250" alt="Trading Insights" />
+          <h3 class="shruk-service-title">Trading Insights</h3>
+          <p class="shruk-service-description">AI-powered dashboard for commodities and forex trading.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="shruk-services">
+    <div class="shruk-container">
+      <h2 class="shruk-services-title">Get in Touch</h2>
+      <p>Connect on <a href="https://t.me/shrukllc" target="_blank" style="color:#00BFA6;">Telegram @shrukllc</a> or send a message below.</p>
+      <form>
+        <input type="text" placeholder="Your Name" />
+        <input type="email" placeholder="Your Email" />
+        <textarea placeholder="Your Message"></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2025 Shruk Consulting. All rights reserved.</p>
+  </footer>
+
+</div>
+</body>
+</html>
