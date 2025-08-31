@@ -28,12 +28,21 @@
             max-width: 1000px;
             margin: 0 auto;
         }
+
+        /* Hero Banner */
+        .hero-banner img {
+            width: 100%;
+            height: auto;
+            max-height: 100vh;
+            display: block;
+            object-fit: cover;
+        }
         
         .hero {
             background: #0D3B66;
             color: white;
             text-align: center;
-            padding: 80px 20px;
+            padding: 60px 20px;
         }
         
         .hero h1 {
@@ -132,6 +141,12 @@
     </style>
 </head>
 <body>
+    <!-- Hero Banner -->
+    <div class="hero-banner">
+        <img src="heros_banner.jpg" alt="Hero Banner">
+    </div>
+
+    <!-- Hero Text -->
     <section class="hero">
         <div class="container">
             <h1>Shurk Insights</h1>
@@ -139,6 +154,7 @@
         </div>
     </section>
 
+    <!-- Services Section -->
     <section class="section">
         <div class="container">
             <div class="services-grid">
@@ -160,6 +176,7 @@
         </div>
     </section>
 
+    <!-- CTA Section -->
     <section class="cta-section">
         <div class="container">
             <div class="price">$800</div>
@@ -169,6 +186,7 @@
         </div>
     </section>
 
+    <!-- Footer -->
     <footer class="footer">
         <div class="container">
             <p>© 2025 Shurk. All Rights Reserved.</p>
@@ -176,4 +194,4 @@
         </div>
     </footer>
 </body>
-</html>
+                        </html>
